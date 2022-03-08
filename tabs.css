@@ -1,0 +1,16 @@
+.tab-content {
+  display: none;
+  border: 1px solid #000;
+  width: 500px;
+  height: 400px;
+  margin-top: 20px;
+  padding: 20px;
+}
+.tab-content.active {
+  display: block;
+}
+.tab-title {
+  width: 100px;
+  height: 50px;
+  background-color: transparent;
+}
