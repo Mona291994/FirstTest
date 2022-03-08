@@ -7,7 +7,7 @@
   padding: 20px;
 }
 .tab-content.active {
-  display: block;
+  display: block !important;
 }
 .tab-title {
   width: 100px;

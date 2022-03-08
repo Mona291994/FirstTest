@@ -11,7 +11,7 @@ function tabsFunction(e) {
     let currentactivetab = document.querySelector('.tab-title.active');
     let currentactivecontent = document.querySelector('.tab-content.active');
     if (currenttarget.id !== currentactivetab.id) {
-      currentactivecontent.style.display = 'none';
+      // currentactivecontent.style.display = 'none';
       currentactivetab.classList.remove('active');
       currentactivecontent.classList.remove('active');
     }
@@ -22,7 +22,7 @@ function tabsFunction(e) {
       if (currenttabdata == item.getAttribute('data-tab')) {
         let currenttargetcontent = item;
         currenttargetcontent.classList.add('active');
-        currenttargetcontent.style.display = 'block';
+        // currenttargetcontent.style.display = 'block';
       }
     });
   }
